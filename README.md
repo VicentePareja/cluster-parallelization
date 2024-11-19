@@ -9,25 +9,25 @@
 
 3. compila simulacion.c
 
-´´´
+```
 gcc -fopenmp -o simulacion simulacion.c
-´´´
+```
 
 4. Ejecuta run_simulacion.sh
 
-´´´
+```
 chmod +x run_simulacion.sh
 ./run_simulacion.sh
-´´´
+```
 5. Espera. puedes ver con "ls" si se están creando los archivos. Para ver el contenido de un .txt puedes usar el comando 
-´´´
+```
 cat archivo.txt
-´´´
+```
 6. Unifica los outputs utilizando:
-´´´
+```
 chmod +x collect_results.sh
 ./collect_results.sh
-´´´
+```
 
 # Desde tu pc
 
